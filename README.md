@@ -5,5 +5,5 @@ This is a simple API that allows you to delay the response of a request for a ce
 ## Usage
 
 ```bash
-curl http://delay-api.deno.dev?1min&3s&500ms
+curl "http://delay-api.deno.dev?1min&3s&500ms"
 ```
