@@ -29,7 +29,7 @@ Deno.serve(async (req) => {
   return Response.json({
     duration,
     elapsed: end.getTime() - start.getTime(),
-    start: start.toString(),
-    end: end.toString(),
+    start: start.toISOString(),
+    end: end.toISOString(),
   });
 });
